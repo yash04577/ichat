@@ -5,10 +5,10 @@ const send_btn = document.getElementById("send_btn");
 const message_container = document.getElementsByClassName("message_container")[0];
 let uname;
 
-// do{
+do{
 
-//     uname = prompt("enter your name");
-// }while(!uname)
+    uname = prompt("enter your name");
+}while(!uname)
 
 input_message.addEventListener('keyup', (e)=>{
     if(e.key === "Enter"){
